@@ -2,7 +2,7 @@ require.config({
   baseUrl: ".."
 });
 
-require([],
+require(["tests/eve-test"],
   function(){
     jasmine.runTests();
   });
