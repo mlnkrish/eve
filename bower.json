@@ -1,0 +1,11 @@
+{
+  "name": "eve",
+  "version": "0.0.1",
+  "main": "eve.js",
+  "keywords": ["async","event","event bus"],
+  "dependencies": {
+        "requirejs": null,
+        "jasmine": null
+  }, 
+  "ignore" : ["docs", "test"]
+}
