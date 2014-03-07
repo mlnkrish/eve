@@ -7,7 +7,6 @@
     var self = this;
     var binder = function(subscriptions){
       var self = this;
-      var subscriptions = subscriptions;
       self.do = function(fn){
         subscriptions.add(fn);
       }
